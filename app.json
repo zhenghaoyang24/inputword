@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/index/index",
+    "pages/statistic/statistic"
+  ],
+  "tabBar": {
+    "selectedColor": "#42b883",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/static/images/tarbar/keyboard.png",
+        "selectedIconPath": "/static/images/tarbar/keyboard_selected.png"
+      },
+      {
+        "pagePath": "pages/statistic/statistic",
+        "text": "统计",
+        "iconPath": "/static/images/tarbar/statistic.png",
+        "selectedIconPath": "/static/images/tarbar/statistic_selected.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#fff098",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Input Word",
+    "navigationBarBackgroundColor": "#42b883"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "useExtendedLib": {
+    "weui": true
+  }
+}

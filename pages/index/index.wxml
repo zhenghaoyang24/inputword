@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  {{inputValue}}
+  <view class="keyboard-box">
+    <keyboard bindinputchange="onInputChange" />
+  </view>
+</scroll-view>

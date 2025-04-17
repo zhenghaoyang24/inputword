@@ -1,0 +1,11 @@
+/* pages/start/start.wxss */
+.start-container{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brad-color);
+  color: var(--text-inverted);
+  font-weight: bolder;
+  font-size: 42rpx;
+}

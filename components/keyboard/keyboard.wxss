@@ -1,0 +1,36 @@
+.keyboard {
+ padding: 30rpx 7rpx 20rpx 7rpx;
+  background-color: #e6e6e6;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20rpx;
+}
+
+.key {
+  width: 68rpx;
+  height: 80rpx;
+  background-color: #fff;
+  border-radius: 8rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rpx;
+  box-shadow: 0 2rpx 4rpx rgba(0,0,0,0.1);
+}
+
+.key.function {
+  background-color: #999;
+  color: white;
+  width: 100rpx;
+}
+
+/* 点击效果 */
+.key:active {
+  background-color: #e0e0e0;
+}
+.key.function:active {
+  background-color: #777;
+}

@@ -1,0 +1,4 @@
+<!--pages/start/start.wxml-->
+<view class="start-container">
+Input Word
+</view>

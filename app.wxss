@@ -1,0 +1,25 @@
+/**app.wxss**/
+page {
+  /* 颜色 */
+  --brad-color: #42b883;
+  /* 背景 边框 */
+  --view-bg-color: #ebebeb;
+  
+  /* 文字 */
+  --text-p: #000000;
+  /* 主要文字（浅灰白） */
+  --text-s: #656565;
+  /* 次级文字 */
+  --text-inverted: #ffffff;
+  background-color: var(--view-bg-color);
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
