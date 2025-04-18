@@ -10,8 +10,8 @@
 }
 
 .key {
-  width: 68rpx;
-  height: 80rpx;
+  width: 65rpx;
+  height: 85rpx;
   background-color: #fff;
   border-radius: 8rpx;
   display: flex;
@@ -21,16 +21,18 @@
   box-shadow: 0 2rpx 4rpx rgba(0,0,0,0.1);
 }
 
-.key.function {
+.key.del {
   background-color: #999;
   color: white;
   width: 100rpx;
+  background-color: var(--brad-color);
 }
 
 /* 点击效果 */
-.key:active {
+.letter-active {
   background-color: #e0e0e0;
 }
-.key.function:active {
-  background-color: #777;
+/* 删除按钮点击效果 */
+.del-actice{
+  filter: brightness(110%); /* 120% 亮度 */
 }
